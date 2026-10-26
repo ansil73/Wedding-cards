@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Archana &amp; Gokul — Wedding Invitation · 8 November 2026</title>
+  <meta name="description" content="Together with our families, we joyfully invite you to the wedding of Archana & Gokul — Sunday, 8 November 2026, NSS Karayogam Hall, Chirakkadavu East.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Archana & Gokul — Wedding Invitation">
+  <meta property="og:description" content="Sunday, 8 November 2026 · Muhurtham 11:45 AM – 12:15 PM · NSS Karayogam Hall, Chirakkadavu East. We joyfully invite you and your family.">
+  <meta property="og:image" content="assets/img/hero.webp">
+  <meta name="theme-color" content="#faf6ef">
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Great+Vibes&family=Noto+Serif+Malayalam:wght@400;500;600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- ═══════════ CINEMATIC OPENING SCREEN ═══════════ -->
+  <div class="opening" id="opening" role="dialog" aria-modal="true" aria-label="Wedding invitation cover">
+    <div class="opening__bg" aria-hidden="true">
+      <img src="assets/img/hero.webp" alt="" fetchpriority="high">
+    </div>
+    <div class="opening__veil" aria-hidden="true"></div>
+    <div class="opening__content">
+      <p class="opening__eyebrow reveal r1">വിവാഹ ക്ഷണക്കത്ത് &nbsp;·&nbsp; Wedding Invitation</p>
+      <h1 class="opening__names reveal r2">
+        <span class="script">Archana</span>
+        <span class="amp">&amp;</span>
+        <span class="script">Gokul</span>
+      </h1>
+      <p class="opening__line reveal r3">Together with our families, we invite you to celebrate our special day.</p>
+      <button class="btn btn--gold reveal r4" id="openInvitation" type="button">Open Invitation</button>
+      <p class="opening__date reveal r4">08 · 11 · 2026</p>
+    </div>
+  </div>
+
+  <!-- Sound toggle (ambient music off by default) -->
+  <button class="sound-toggle" id="soundToggle" type="button" aria-pressed="false" aria-label="Play ambient music" hidden>
+    <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3a4.5 4.5 0 0 0-2.5-4v8a4.5 4.5 0 0 0 2.5-4z"/></svg>
+    <span class="sound-toggle__label">Sound</span>
+  </button>
+
+  <main id="page" class="page" hidden>
+
+    <!-- ═══════════ HERO — SAVE THE DATE ═══════════ -->
+    <section class="hero" id="top">
+      <picture class="hero__media">
+        <img src="assets/img/hero.webp" alt="Archana and Gokul standing hand in hand beneath an ancient stone pavilion" fetchpriority="high">
+      </picture>
+      <div class="hero__scrim" aria-hidden="true"></div>
+      <div class="hero__content">
+        <p class="hero__eyebrow anim-up d1">Save the Date</p>
+        <h2 class="hero__names anim-up d2">
+          <span class="script">Archana</span> <span class="amp">&amp;</span> <span class="script">Gokul</span>
+        </h2>
+        <p class="hero__date anim-up d3">Sunday, 8 November 2026&nbsp;&nbsp;·&nbsp;&nbsp;ഞായറാഴ്ച, 8 നവംബർ 2026</p>
+        <p class="hero__line anim-up d4">Two families, one celebration — we can’t imagine the day without you.</p>
+
+        <div class="countdown anim-up d5" id="countdown" role="timer" aria-label="Countdown to the wedding">
+          <div class="countdown__cell"><span class="countdown__num" id="cdDays">—</span><span class="countdown__label">Days</span></div>
+          <div class="countdown__sep" aria-hidden="true">:</div>
+          <div class="countdown__cell"><span class="countdown__num" id="cdHours">—</span><span class="countdown__label">Hours</span></div>
+          <div class="countdown__sep" aria-hidden="true">:</div>
+          <div class="countdown__cell"><span class="countdown__num" id="cdMins">—</span><span class="countdown__label">Minutes</span></div>
+          <div class="countdown__sep" aria-hidden="true">:</div>
+          <div class="countdown__cell"><span class="countdown__num" id="cdSecs">—</span><span class="countdown__label">Seconds</span></div>
+        </div>
+        <p class="countdown__done" id="cdDone" hidden>The celebration has begun 🌸</p>
+      </div>
+      <div class="scroll-cue" aria-hidden="true"><span></span></div>
+    </section>
+
+    <!-- ═══════════ OUR STORY ═══════════ -->
+    <section class="story section" id="story">
+      <div class="section__head reveal">
+        <p class="eyebrow">Our Story</p>
+        <h2 class="section__title"><span class="script">A promise beneath the old stones</span></h2>
+      </div>
+      <div class="story__grid">
+        <figure class="story__img reveal">
+          <img src="assets/img/walk.webp" alt="Archana and Gokul walking hand in hand toward the stone pavilion" loading="lazy">
+        </figure>
+        <div class="story__text reveal">
+          <p class="story__lead">Where the mist settles on the hillside and a thousand-year-old pavilion keeps watch, our story found its frame.</p>
+          <p>Archana, beloved daughter of <strong>Shaji P.&nbsp;T.</strong> and <strong>Seena Shaji</strong> of Karikkattathuvayalil house, Chirakkadavu East — and Gokul, dearest son of <strong>V.&nbsp;G. Gopi</strong> and <strong>Leelamani Gopi</strong> of Anavilasam, Vettithara house, Kumali — are stepping into a new life together.</p>
+          <p>We would be honoured to have you beside us as two families become one, and as blessings are sought beneath the same sky you see in these photographs.</p>
+          <p class="story__sig script">— With love, Archana &amp; Gokul</p>
+        </div>
+        <figure class="story__img story__img--tall reveal">
+          <img src="assets/img/chin.webp" alt="Gokul gently smiling at Archana as they sit among carved pillars" loading="lazy">
+        </figure>
+      </div>
+    </section>
+
+    <!-- ═══════════ PRE-WEDDING FILM ═══════════ -->
+    <section class="film section section--dark" id="film">
+      <div class="section__head reveal">
+        <p class="eyebrow eyebrow--light">The Pre-Wedding Film</p>
+        <h2 class="section__title section__title--light"><span class="script">Forty-six seconds of us</span></h2>
+      </div>
+      <div class="film__frame reveal" id="filmFrame">
+        <video id="filmVideo" preload="none" playsinline poster="assets/img/film-poster.jpg" aria-label="Pre-wedding film of Archana and Gokul">
+          <source src="assets/video/prewedding-film.mp4" type="video/mp4">
+          Sorry — your browser cannot play this film. <a href="assets/video/prewedding-film.mp4">Download it here</a>.
+        </video>
+        <button class="film__play" id="filmPlay" type="button" aria-label="Play the pre-wedding film">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+        </button>
+        <button class="film__pause" id="filmPause" type="button" aria-label="Pause the film" hidden>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg>
+        </button>
+      </div>
+    </section>
+
+    <!-- ═══════════ WEDDING DETAILS ═══════════ -->
+    <section class="details section" id="details">
+      <div class="section__head reveal">
+        <p class="eyebrow">Wedding Details</p>
+        <h2 class="section__title"><span class="script">When &amp; where</span></h2>
+      </div>
+
+      <div class="details__grid">
+        <article class="card reveal">
+          <h3 class="card__title">Muhurtham <span class="ml">ശുഭമുഹൂർത്തം</span></h3>
+          <p class="card__big">Sunday, 8 November 2026</p>
+          <p class="ml card__ml">ഞായറാഴ്ച · 2026 നവംബർ 8 (1202 തുലാം 22)</p>
+          <p class="card__strong">Between 11:45 AM and 12:15 PM</p>
+          <p class="ml card__ml">പകൽ 11.45 നും 12.15 നും മദ്ധ്യേയുള്ള ശുഭമുഹൂർത്തത്തിൽ</p>
+        </article>
+
+        <article class="card reveal">
+          <h3 class="card__title">Venue <span class="ml">വേദി</span></h3>
+          <p class="card__big">NSS Karayogam Hall</p>
+          <p class="ml card__ml">ചിറക്കടവ് ഈസ്റ്റ് എൻ.എസ്.എസ്. കരയോഗം ഹാൾ</p>
+          <p class="card__small">Chirakkadavu East, near Ponkunnam, Kottayam District, Kerala</p>
+          <a class="btn btn--ghost" href="https://www.google.com/maps/search/?api=1&query=NSS+Karayogam+Auditorium%2C+Erumely+-+Ponkunnam+Rd%2C+Chirakkadavu%2C+Kerala+686520" target="_blank" rel="noopener">Get Directions</a>
+        </article>
+
+        <article class="card reveal">
+          <h3 class="card__title">With Love <span class="ml">സസ്നേഹം</span></h3>
+          <p class="ml card__ml">ഞങ്ങളുടെ മകൾ <strong class="ml-strong">അർച്ചന</strong> വിവാഹിതയാവുകയാണ്.</p>
+          <p class="card__small">
+            <strong>Hosts:</strong> Shaji P. T. &amp; Seena Shaji<br>
+            <span class="ml">ഷാജി പി.റ്റി. · സീനാഷാജി · കരിക്കാട്ടാത്തുവയലിൽ, ചിറക്കടവ് ഈസ്റ്റ്</span>
+          </p>
+          <p class="card__small">
+            <strong>Groom:</strong> Gokul, son of V. G. Gopi &amp; Leelamani Gopi<br>
+            <span class="ml">വരൻ : കുമളി, ആനവിലാസം, വെട്ടിത്തറ വീട്ടിൽ · ശ്രീ. വി.ജി. ഗോപിയുടെയും ശ്രീമതി ലീലാമണി ഗോപിയുടെയും മകൻ</span>
+          </p>
+          <p class="card__small">
+            <strong>Best compliments:</strong>
+            <span class="ml">ആകാശ്, ആദർശ്, ആദിത്യ</span>
+          </p>
+          <p class="card__small">Phone: <a class="link" href="tel:+919400719579">+91 94007 19579</a></p>
+        </article>
+      </div>
+
+      <p class="details__invite reveal">
+        <span class="ml">വിവാഹത്തിലും തുടർന്നുള്ള സൽക്കാരത്തിലും താങ്കളുടെ സകുടുംബ സാന്നിദ്ധ്യം സാദരം ക്ഷണിച്ചുകൊള്ളുന്നു.</span><br>
+        We cordially invite you and your family to the wedding and the lunch that follows.
+      </p>
+    </section>
+
+    <!-- ═══════════ PHOTO GALLERY ═══════════ -->
+    <section class="gallery section section--tint" id="gallery">
+      <div class="section__head reveal">
+        <p class="eyebrow">The Gallery</p>
+        <h2 class="section__title"><span class="script">Moments before the vows</span></h2>
+      </div>
+      <div class="gallery__grid" id="galleryGrid">
+        <button class="g-item g-item--wide reveal" type="button" data-index="0" aria-label="Open photo 1: couple beneath the pavilion, wide view"><img src="assets/img/hero.webp" alt="Archana and Gokul beneath the stone pavilion, wide view" loading="lazy"></button>
+        <button class="g-item reveal" type="button" data-index="1" aria-label="Open photo 2: walking to the pavilion"><img src="assets/img/walk.webp" alt="Walking hand in hand toward the pavilion" loading="lazy"></button>
+        <button class="g-item reveal" type="button" data-index="2" aria-label="Open photo 3: sitting on the plinth"><img src="assets/img/lean.webp" alt="Leaning together on the pavilion plinth" loading="lazy"></button>
+        <button class="g-item reveal" type="button" data-index="3" aria-label="Open photo 4: seated on the steps"><img src="assets/img/steps-gaze.webp" alt="Seated on the steps, gazing at each other" loading="lazy"></button>
+        <button class="g-item reveal" type="button" data-index="4" aria-label="Open photo 5: close-up portrait"><img src="assets/img/closeup.webp" alt="A joyful close-up of the couple" loading="lazy"></button>
+        <button class="g-item reveal" type="button" data-index="5" aria-label="Open photo 6: tender moment"><img src="assets/img/chin.webp" alt="A tender moment between the couple" loading="lazy"></button>
+        <button class="g-item reveal" type="button" data-index="6" aria-label="Open photo 7: on the plinth"><img src="assets/img/plinth.webp" alt="The couple on the pavilion plinth" loading="lazy"></button>
+        <button class="g-item g-item--wide reveal" type="button" data-index="7" aria-label="Open photo 8: low-angle wide view"><img src="assets/img/lowangle.webp" alt="Low-angle view of the pavilion and the couple" loading="lazy"></button>
+        <button class="g-item reveal" type="button" data-index="8" aria-label="Open photo 9: monochrome dance"><img src="assets/img/dance-bw.webp" alt="Dancing beneath the arches, in black and white" loading="lazy"></button>
+        <button class="g-item reveal" type="button" data-index="9" aria-label="Open photo 10: silhouette dance"><img src="assets/img/silhouette.webp" alt="Dancing in silhouette inside the pavilion" loading="lazy"></button>
+        <button class="g-item reveal" type="button" data-index="10" aria-label="Open photo 11: relaxed on the steps"><img src="assets/img/steps-casual.webp" alt="Relaxed together on the pavilion steps" loading="lazy"></button>
+      </div>
+    </section>
+
+    <!-- ═══════════ INVITATION CARD ═══════════ -->
+    <section class="invite section" id="invitation-card">
+      <div class="section__head reveal">
+        <p class="eyebrow">The Invitation</p>
+        <h2 class="section__title"><span class="script">വിവാഹ ക്ഷണക്കത്ത്</span></h2>
+      </div>
+      <div class="invite__wrap reveal">
+        <div class="invite__text ml-block" lang="ml">
+          <p class="invite__salutation">മാന്യമിത്രമേ,</p>
+          <p>ഞങ്ങളുടെ മകൾ <strong>അർച്ചന</strong> വിവാഹിതയാവുകയാണ്.</p>
+          <p>വരൻ : കുമളി, ആനവിലാസം, വെട്ടിത്തറ വീട്ടിൽ<br>
+          ശ്രീ. വി.ജി. ഗോപിയുടെയും ശ്രീമതി ലീലാമണി ഗോപിയുടെയും മകൻ <strong>ഗോകുൽ</strong></p>
+          <p>2026 നവംബർ 8 ഞായറാഴ്ച (1202 തുലാം 22)<br>
+          പകൽ 11.45 നും 12.15 നും മദ്ധ്യേയുള്ള ശുഭമുഹൂർത്തത്തിൽ<br>
+          ചിറക്കടവ് ഈസ്റ്റ് എൻ.എസ്.എസ്. കരയോഗം ഹാളിൽ വച്ചാണ് വിവാഹം.</p>
+          <p>വിവാഹത്തിലും തുടർന്നുള്ള സൽക്കാരത്തിലും താങ്കളുടെ സകുടുംബ സാന്നിദ്ധ്യം സാദരം ക്ഷണിച്ചുകൊള്ളുന്നു.</p>
+          <p class="invite__sign">സസ്നേഹം,<br>ഷാജി പി.റ്റി. · സീനാഷാജി<br>കരിക്കാട്ടാത്തുവയലിൽ, ചിറക്കടവ് ഈസ്റ്റ്</p>
+        </div>
+        <figure class="invite__card reveal">
+          <button type="button" class="invite__cardBtn" id="openCard" aria-label="View the printed invitation card full screen">
+            <img src="assets/img/invitation-card.webp" alt="Printed Kerala wedding invitation card of Archana and Gokul" loading="lazy">
+          </button>
+          <figcaption class="invite__cap">Tap the card to view it full size · Ph: 9400719579</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ═══════════ RSVP ═══════════ -->
+    <section class="rsvp section section--dark" id="rsvp">
+      <div class="section__head reveal">
+        <p class="eyebrow eyebrow--light">RSVP</p>
+        <h2 class="section__title section__title--light"><span class="script">Will you join us?</span></h2>
+      </div>
+      <form class="rsvp__form reveal" id="rsvpForm" novalidate>
+        <div class="rsvp__row">
+          <label class="field">
+            <span class="field__label">Your name</span>
+            <input type="text" id="rsvpName" name="name" required autocomplete="name" placeholder="Your name">
+          </label>
+          <label class="field">
+            <span class="field__label">Number of guests</span>
+            <input type="number" id="rsvpGuests" name="guests" min="1" max="20" value="2" required>
+          </label>
+        </div>
+        <fieldset class="field field--radio">
+          <legend class="field__label">Attendance</legend>
+          <label><input type="radio" name="attending" value="Joyfully attends" checked> Joyfully attends</label>
+          <label><input type="radio" name="attending" value="Regretfully declines"> Regretfully declines</label>
+        </fieldset>
+        <label class="field">
+          <span class="field__label">A note for the couple (optional)</span>
+          <textarea id="rsvpNote" name="note" rows="3" placeholder="Your wishes…"></textarea>
+        </label>
+        <button class="btn btn--gold" type="submit">Send RSVP via WhatsApp</button>
+        <p class="rsvp__hint" id="rsvpError" role="alert" hidden>Please tell us your name and a guest count between 1 and 20.</p>
+        <p class="rsvp__note">Your reply opens as a WhatsApp message to the family (Ph: 9400719579) — nothing is stored on this website.</p>
+      </form>
+    </section>
+
+    <!-- ═══════════ FINAL INVITATION ═══════════ -->
+    <section class="closing" id="closing">
+      <picture class="closing__bg" aria-hidden="true">
+        <img src="assets/img/silhouette.webp" alt="" loading="lazy">
+      </picture>
+      <div class="closing__scrim" aria-hidden="true"></div>
+      <div class="closing__content">
+        <p class="eyebrow eyebrow--light reveal">With joy in our hearts</p>
+        <h2 class="closing__names reveal"><span class="script">Archana</span> <span class="amp">&amp;</span> <span class="script">Gokul</span></h2>
+        <p class="closing__date reveal">08 · 11 · 2026 · NSS Karayogam Hall, Chirakkadavu East</p>
+        <p class="closing__line reveal">Your blessings and presence will make our day complete.</p>
+        <div class="closing__actions reveal">
+          <a class="btn btn--gold" href="archana-gokul-wedding.ics" download>Add to Calendar</a>
+          <a class="btn btn--ghost" href="https://www.google.com/maps/search/?api=1&query=NSS+Karayogam+Auditorium%2C+Erumely+-+Ponkunnam+Rd%2C+Chirakkadavu%2C+Kerala+686520" target="_blank" rel="noopener">Get Directions</a>
+          <button class="btn btn--ghost" id="shareBtn" type="button">Share Invitation</button>
+          <button class="btn btn--ghost" id="replayBtn" type="button">Replay Film</button>
+        </div>
+        <p class="closing__credit reveal">ഉപചാരപൂർവ്വം :- ആകാശ്, ആദർശ്, ആദിത്യ · Printed at Venu Offset Press</p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>Archana &amp; Gokul · 8 November 2026 · Made with love</p>
+    </footer>
+  </main>
+
+  <!-- ═══════════ LIGHTBOX ═══════════ -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer" hidden>
+    <button class="lightbox__close" id="lbClose" type="button" aria-label="Close photo viewer">&times;</button>
+    <button class="lightbox__nav lightbox__nav--prev" id="lbPrev" type="button" aria-label="Previous photo">&#8249;</button>
+    <figure class="lightbox__stage"><img id="lbImg" src="" alt=""></figure>
+    <button class="lightbox__nav lightbox__nav--next" id="lbNext" type="button" aria-label="Next photo">&#8250;</button>
+    <p class="lightbox__count" id="lbCount"></p>
+  </div>
+
+  <!-- ═══════════ CARD VIEWER ═══════════ -->
+  <div class="lightbox lightbox--card" id="cardViewer" role="dialog" aria-modal="true" aria-label="Invitation card" hidden>
+    <button class="lightbox__close" id="cardClose" type="button" aria-label="Close invitation card">&times;</button>
+    <figure class="lightbox__stage lightbox__stage--card">
+      <img src="assets/img/invitation-card.webp" alt="Printed wedding invitation card, Malayalam">
+    </figure>
+  </div>
+
+  <!-- Toast for share fallback -->
+  <div class="toast" id="toast" role="status" hidden></div>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

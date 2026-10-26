@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Archana & Gokul Wedding//INV//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:archana-gokul-wedding-20261108@invitation
+DTSTAMP:20261026T000000Z
+DTSTART:20261108T061500Z
+DTEND:20261108T064500Z
+SUMMARY:Wedding of Archana & Gokul — Muhurtham
+DESCRIPTION:Wedding of Archana (daughter of Shaji P. T. & Seena Shaji) with Gokul (son of V. G. Gopi & Leelamani Gopi). Muhurtham between 11:45 AM and 12:15 PM (IST). വിവാഹത്തിലും തുടർന്നുള്ള സൽക്കാരത്തിലും താങ്കളുടെ സകുടുംബ സാന്നിദ്ധ്യം സാദരം ക്ഷണിച്ചുകൊള്ളുന്നു.
+LOCATION:NSS Karayogam Hall\, Chirakkadavu East\, Erumely - Ponkunnam Rd\, Kerala 686520
+BEGIN:VALARM
+TRIGGER:-P1D
+ACTION:DISPLAY
+DESCRIPTION:Tomorrow is the wedding of Archana & Gokul
+END:VALARM
+END:VEVENT
+END:VCALENDAR
